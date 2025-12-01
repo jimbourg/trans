@@ -73,5 +73,22 @@ export const en = {
     enterPasswordToDisable2FA: "Enter your password to disable two-factor authentication",
     currentPassword: "Current Password",
     internalError: "Internal server error."
+  },
+
+  tournament: {
+    tournamentCreationFailed: "Failed to create tournament.",
+    tournamentNotFound: "Tournament not found.",
+    registrationClosed: "Tournament registration is closed.",
+    tournamentFull: "Tournament is full.",
+    alreadyJoined: "Already joined this tournament.",
+    notRegistered: "Not registered in this tournament.",
+    cannotLeaveAfterStart: "Cannot leave tournament after registration closes.",
+    needMinimumParticipants: "Need at least 2 participants to start tournament.",
+    notTournamentCreator: "Only tournament creator can start the tournament.",
+    tournamentAlreadyStarted: "Tournament already started or completed.",
+    matchNotFound: "Match not found.",
+    matchAlreadyCompleted: "Match already completed.",
+    matchNotReady: "Match not ready.",
+    scoresCantBeTied: "Scores cannot be tied."
   }
 };

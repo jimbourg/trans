@@ -73,5 +73,22 @@ export const de = {
     enterPasswordToDisable2FA: "Geben Sie Ihr Passwort ein, um die Zwei-Faktor-Authentifizierung zu deaktivieren",
     currentPassword: "Aktuelles Passwort",
     internalError: "Interner Serverfehler."
+  },
+
+  tournament: {
+    tournamentCreationFailed: "Turniererstellung fehlgeschlagen.",
+    tournamentNotFound: "Turnier nicht gefunden.",
+    registrationClosed: "Turnieranmeldung ist geschlossen.",
+    tournamentFull: "Turnier ist voll.",
+    alreadyJoined: "Bereits diesem Turnier beigetreten.",
+    notRegistered: "Nicht für dieses Turnier registriert.",
+    cannotLeaveAfterStart: "Turnier kann nach Anmeldeschluss nicht verlassen werden.",
+    needMinimumParticipants: "Mindestens 2 Teilnehmer erforderlich, um das Turnier zu starten.",
+    notTournamentCreator: "Nur der Turnierersteller kann das Turnier starten.",
+    tournamentAlreadyStarted: "Turnier bereits gestartet oder abgeschlossen.",
+    matchNotFound: "Match nicht gefunden.",
+    matchAlreadyCompleted: "Match bereits abgeschlossen.",
+    matchNotReady: "Match nicht bereit.",
+    scoresCantBeTied: "Punkte können nicht unentschieden sein."
   }
 };

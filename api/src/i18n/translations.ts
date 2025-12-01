@@ -12,6 +12,7 @@ export const translations = {
 
 export type Language = 'fr' | 'en' | 'es' | 'de';
 export type TranslationKey = keyof typeof translations.fr.auth;
+export type TournamentTranslationKey = keyof typeof translations.fr.tournament;
 
 export class I18n {
   private currentLanguage: Language = 'fr';
@@ -24,8 +25,17 @@ export class I18n {
     return this.currentLanguage;
   }
 
-  t(key: TranslationKey): string {
-    return translations[this.currentLanguage]?.auth[key] || translations.fr.auth[key] || key;
+  t(key: TranslationKey | TournamentTranslationKey | string): string {
+    // Try auth namespace
+    if (key in translations[this.currentLanguage].auth) {
+      return translations[this.currentLanguage].auth[key as TranslationKey];
+    }
+    // Try tournament namespace
+    if (translations[this.currentLanguage].tournament && key in translations[this.currentLanguage].tournament) {
+      return translations[this.currentLanguage].tournament[key as TournamentTranslationKey];
+    }
+    // Fallback to key itself
+    return key;
   }
 }
 

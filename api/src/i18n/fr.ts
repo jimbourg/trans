@@ -73,5 +73,22 @@ export const fr = {
     enterPasswordToDisable2FA: "Entrez votre mot de passe pour désactiver l'authentification à deux facteurs",
     currentPassword: "Mot de passe actuel",
     internalError: "Erreur interne du serveur."
+  },
+
+  tournament: {
+    tournamentCreationFailed: "Échec de la création du tournoi.",
+    tournamentNotFound: "Tournoi introuvable.",
+    registrationClosed: "Les inscriptions au tournoi sont fermées.",
+    tournamentFull: "Le tournoi est complet.",
+    alreadyJoined: "Vous êtes déjà inscrit à ce tournoi.",
+    notRegistered: "Vous n'êtes pas inscrit à ce tournoi.",
+    cannotLeaveAfterStart: "Impossible de quitter le tournoi après la fermeture des inscriptions.",
+    needMinimumParticipants: "Il faut au moins 2 participants pour commencer le tournoi.",
+    notTournamentCreator: "Seul le créateur du tournoi peut le démarrer.",
+    tournamentAlreadyStarted: "Le tournoi est déjà commencé ou terminé.",
+    matchNotFound: "Match introuvable.",
+    matchAlreadyCompleted: "Match déjà terminé.",
+    matchNotReady: "Match non prêt.",
+    scoresCantBeTied: "Les scores ne peuvent pas être égaux."
   }
 };
