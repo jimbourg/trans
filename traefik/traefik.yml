@@ -1,3 +1,0 @@
-log: { level: INFO }
-providers: { file: { directory: /etc/traefik/dynamic } }
-entryPoints: { websecure: { address: ":443" } }
